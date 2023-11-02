@@ -265,7 +265,7 @@ class HeaderToolMatchCallback : public clang::ast_matchers::MatchFinder::MatchCa
             gen_header_code += "#include \"" + src_file_path.string() + "\"\n";
             std::string gen_source_code = "// this is a generated source file \n";
             if (!decls.empty()) {
-                gen_source_code += "#include \"Core/DeclManager.h\"\n";
+                gen_source_code += "#include \"Core/DeclTemplate.h\"\n";
                 gen_source_code += "#include \"" + gen_header_file_path.string() + "\"\n";
 
                 std::string gen_namespace_path = "GNRT";
