@@ -1,0 +1,14 @@
+﻿---
+AlignOperands: 'true'
+AlwaysBreakAfterReturnType: All
+AlwaysBreakTemplateDeclarations: 'Yes'
+ColumnLimit: '128'
+IndentWidth: '4'
+Language: Cpp
+PenaltyBreakAssignment: '128'
+PenaltyBreakBeforeFirstCallParameter: '0'
+PointerAlignment: Left
+SpaceAfterTemplateKeyword: 'false'
+UseTab: Never
+
+...
